@@ -1,2 +1,23 @@
-# Network-Traffic-Analysis-Tool
-tool that captures and analyzes network packets. It can filter traffic based on protocols, display real-time data, and provide insights into suspicious activities.
+# Network Traffic Analysis Tool
+
+A simple Network Traffic Analysis Tool implemented in Python that uses the `scapy` library to capture and analyze network packets in real-time.
+
+## Features
+- Capture live network packets.
+- Display captured packets' summaries.
+- Analyze captured traffic for source and destination IP addresses.
+
+## Technologies Used
+- **Python**
+- **Scapy**: A powerful Python library used for packet manipulation.
+
+## Requirements
+- **Python 3.6+**
+- **scapy** library
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/Network-Traffic-Analysis-Tool.git
+   cd Network-Traffic-Analysis-Tool
